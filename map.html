@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+<style>
+  body{
+    overflow: hidden;
+  }
+</style>
+  <title>World Map</title>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="index.html"><img src="icon.png" width="25" height="25" alt=""> WildernessPalette</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">World Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+
+<body>
+<!-- <img src="map.jpg" alt="Map" usemap="#polygonMap" width="1366" height="768">  -->
+<img src="map.jpg" alt="Map" usemap="#polygonMap" width="100%" height="100%"> 
+
+
+  <map name="polygonMap">
+    <area shape="poly" coords="411,702,393,706,371,665,386,554,349,506,375,443,426,449,520,504,496,571"
+      href="samerica.html" alt="south america">
+    <area shape="poly" coords="694,567,648,492,606,429,561,394,596,312,747,329,786,408,808,409,771,498,733,571"
+    href="africa.html" alt="africa">
+    <area shape="poly" coords="1067,554,1170,512,1214,566,1198,642,1174,642,1142,600,1077,603,1061,571"
+    href="aus.html" alt="Australia">
+    <area shape="poly"
+      coords="857,355,873,129,993,85,1261,146,1266,198,1102,338,1087,451,1209,491,1211,518,1041,512,967,417,943,370,923,436,888,420"
+      href="india.html" alt="india">
+
+  </map>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</html>
